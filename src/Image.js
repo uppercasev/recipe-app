@@ -1,6 +1,6 @@
-function Image() {
+function Image(props) {
     return (
-        <img src="teacake.jpg" height="200px" alt="cake"/>
+        <img src={props.src} height="200px" alt="cake"/>
     )
 }
 
